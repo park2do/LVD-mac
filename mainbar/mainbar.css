@@ -1,0 +1,14 @@
+.mb_color {
+    background-color: rgb(123,134,356);
+}
+
+.mb_size {
+    width: 800px;
+    height: 600px;
+}
+
+.mb_position {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}

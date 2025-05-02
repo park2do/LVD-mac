@@ -1,0 +1,29 @@
+.sblo_color {
+    background-color: rgb(113,14,16);
+
+}
+
+.sblo_size {
+    width: 150px;
+    height: 50px;
+}
+
+.sblo_position {
+    margin: auto;
+    margin-top: 5px;    
+    display: flex;
+    flex-direction: row;
+}
+
+/*LOGO IMG*/
+.LogoImg {
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+/*LOGO WORDS*/
+.LogoWord {
+    margin-left: 6px;
+}
+
+

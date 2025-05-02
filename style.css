@@ -1,0 +1,13 @@
+#wholebody {
+    display: flex;
+    height: 1000px;
+    background-color: gray;
+    justify-content: flex-start; /* 기본은 왼쪽 정렬 */
+}
+
+/* 1000px 이상일 때 중앙 정렬 */
+@media (min-width: 1000px) {
+    #wholebody {
+        justify-content: center;
+    }
+}

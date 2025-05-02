@@ -1,0 +1,13 @@
+.color_sidebar {
+    background-color: rgb(225,134,156);
+}
+
+.size_sidebar {
+    width: 200px;
+    height: 600px;
+}
+
+.sidebar_position {
+    display: flex;
+    flex-direction: column;
+}

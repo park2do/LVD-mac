@@ -1,0 +1,13 @@
+.sbli_color {
+    background-color: rgb(13,124,156);
+}
+
+.sbli_size {
+    width: 180px;
+    height: 500px;
+}
+
+.sbli_position {
+    margin: auto;
+    margin-top: 5px;
+}
