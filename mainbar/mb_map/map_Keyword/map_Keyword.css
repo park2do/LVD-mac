@@ -1,0 +1,26 @@
+.mmkw_position {
+    display: flex;
+    flex-direction: row;
+}
+
+.mmkw_size {
+    height: 100px;
+    width: 500px;
+}
+
+.mmkw_color {
+    background-color: rgb(226, 210, 145);
+}
+
+.mmkw_Keyword_position {
+    margin: 3px;
+}
+
+.mmkw_Keyword_size {
+    height: 50px;
+    width: 100px;
+}
+
+.mmkw_Keyword_color {
+    background-color: aqua;
+}

@@ -95,9 +95,11 @@ function loadMap() {
                         const target = document.getElementById("map_");
                         if (target) {
                             target.innerHTML = mapHtml;
+                    
                             //Draw Map
                             DefineMap() //at sbli_Map
                             geodisplay() //at sbli_Map
+                            loadKeywordbar()
 
                         } else {
                             console.error("#map이 존재하지 않습니다.");
@@ -105,7 +107,20 @@ function loadMap() {
                     })
 
                     .catch(err => console.error("map.html 로드 실패:", err.message));
+                
+                    
             });
         })
         .catch(err => console.error("mb_map.html 로드 실패:", err.message));
+}
+
+function loadKeywordbar () {            
+    fetch('mainbar/mb_map/map_Keyword/map_Keyword.html')
+        .then(response => response.text()) // 응답을 "텍스트(문자열)"로 변환
+        .then(html => {
+        document.getElementById('map_Keyword').innerHTML = html;
+        })
+        .catch(error => {
+        console.error('Error fetching HTML:', error);
+    });
 }
