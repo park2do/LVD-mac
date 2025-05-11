@@ -15,19 +15,28 @@
     <link rel="stylesheet" href="sidebar/sb_list/sbli_map/sbli_map.css">
     <link rel="stylesheet" href="sidebar/sb_list/sbli_community/sbli_community.css">
     
+    
     <link rel="stylesheet" href="mainbar/mainbar.css">
     <link rel="stylesheet" href="mainbar/mb_map/mb_map.css">
-    
+    <link rel="stylesheet" href="mainbar/mb_map/map/map.css">
+    <link rel="stylesheet" href="mainbar/mb_community/mb_community.css">
+    <link rel="stylesheet" href="mainbar/mb_QnA/mb_QnA.css">
+    <link rel="stylesheet" href="mainbar/mb_defaultPage/mb_defaultPage.css">
+
     <link rel="stylesheet" href="etcbar/etcbar.css">
 
 </head>
 <body>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4e501e04a10d23b69620042928b4590d&libraries=services"></script>
+    
 
 <!-- open -->
     <div id="wholebody" >        
         <div id="sidebar"></div>
         <div id="mainbar"></div>
         <div id="etcbar"></div>
+        <div id="map1" style="width:500px;height:400px;"></div>
+
     <div/>
 <!--close -->
 
@@ -35,8 +44,14 @@
 <script src="main.js"></script>
 <script src="sidebar/sidebar.js"></script>
 <script src="sidebar/sb_list/sb_list.js"></script>
+<script src="sidebar/sb_list/sbli_community/sbli_community.js"></script>
+<script src="sidebar/sb_list/sbli_map/sbli_map.js"></script>
+<script src="sidebar/sb_logo/sb_logo.js"></script>
+<script src="sidebar/sb_list/sbli_QnA/sbli_QnA.js"></script>
 
 <script src="mainbar/mainbar.js"></script>
+<script src="mainbar/mb_map/mb_map_search.js"></script>
+
 
 </body>
 </html>

@@ -1,4 +1,6 @@
 //Community Connection
+
+
 fetch('sidebar/sb_list/sbli_community/sbli_community.html')
     .then(response => response.text()) // 응답을 "텍스트(문자열)"로 변환
     .then(html => {
