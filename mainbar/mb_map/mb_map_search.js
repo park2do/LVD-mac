@@ -12,7 +12,6 @@ function submitInput() {
     }
 }
 
-
 // 키워드로 장소를 검색합니다
 function searchMap_BasicSetting () {
 
