@@ -4,9 +4,9 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -852.424,
-    "scrollLeft": -623.8246,
-    "zoomLevel": 0.73,
+    "scrollTop": -380.3995,
+    "scrollLeft": -245.3576,
+    "zoomLevel": 0.85,
     "show": 431,
     "database": 4,
     "databaseName": "LVD_QnA",
@@ -86,7 +86,7 @@
           "color": "#E97B7B"
         },
         "meta": {
-          "updateAt": 1747042296716,
+          "updateAt": 1747042740483,
           "createAt": 1746975302766
         }
       },
