@@ -1,6 +1,6 @@
 let map_Geoloc //전역 설정
 
-function clearSections() { //새로고침
+function clearSectionsMb() { //새로고침
     // 불러오는 대상들 모두 비워주기 (필요한 만큼 추가)
     const sections = ['mb_map', 'mb_community', 'mb_defaulPage', 'mb_QnA'];
 
@@ -74,7 +74,7 @@ function geodisplay() {
 // 전체 실행 함수 > Mainbar_Map 구역 전체 표시 후 나머지 작업
 function loadMap() {
 
-    clearSections();
+    clearSectionsMb();
 
     fetch("mainbar/mb_map/mb_map.html")
         .then(res => {

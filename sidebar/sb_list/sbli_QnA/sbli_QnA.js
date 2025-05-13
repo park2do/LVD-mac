@@ -1,4 +1,4 @@
-function clearSections() {
+function clearSectionsMb() {
     // 불러오는 대상들 모두 비워주기 (필요한 만큼 추가)
     const sections = ['mb_map', 'mb_community', 'mb_defaulPage', 'mb_QnA'];
     
@@ -11,7 +11,7 @@ function clearSections() {
 
 function loadPage(url) {
 
-    clearSections()
+    clearSectionsMb()
 
     fetch(url)
         .then(response => {
@@ -24,4 +24,7 @@ function loadPage(url) {
             .catch(error => {
             document.getElementById('mb_QnA').innerHTML = `<p style="color:red;">오류: ${error.message}</p>`;
         });
+    
+    loadPL() //PostList Page Load
+    TogglingPostingPage()
     }
