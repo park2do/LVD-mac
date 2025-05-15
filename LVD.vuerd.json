@@ -4,9 +4,9 @@
   "settings": {
     "width": 2000,
     "height": 2000,
-    "scrollTop": -631.4106,
-    "scrollLeft": -404.3576,
-    "zoomLevel": 0.85,
+    "scrollTop": -841.1988,
+    "scrollLeft": -547.826,
+    "zoomLevel": 0.79,
     "show": 431,
     "database": 4,
     "databaseName": "LVD_QnA",
@@ -244,15 +244,15 @@
           "YpDk5EcsgXXQ6UyzMYRo_"
         ],
         "ui": {
-          "x": 237.6861,
-          "y": 344.4938,
+          "x": 236.4204,
+          "y": 1016.6456,
           "zIndex": 337,
           "widthName": 60,
           "widthComment": 237,
           "color": "#E292DF"
         },
         "meta": {
-          "updateAt": 1747042313825,
+          "updateAt": 1747124247841,
           "createAt": 1747036984838
         }
       },
@@ -282,7 +282,7 @@
           "color": "#DD2E69"
         },
         "meta": {
-          "updateAt": 1747042121320,
+          "updateAt": 1747124442409,
           "createAt": 1747037844207
         }
       },
@@ -1464,17 +1464,17 @@
             "AWt-MswBCKUQYeNa2gFcu"
           ],
           "x": 424.4539,
-          "y": 636.4735,
-          "direction": 4
+          "y": 884.4735,
+          "direction": 8
         },
         "end": {
           "tableId": "DgbJYehKJP_sHLnwCOoj1",
           "columnIds": [
             "_0zc24cx5BP4vBNZJT7i0"
           ],
-          "x": 424.1861,
-          "y": 496.4938,
-          "direction": 8
+          "x": 422.9204,
+          "y": 1016.6456,
+          "direction": 4
         },
         "meta": {
           "updateAt": 1747042014365,

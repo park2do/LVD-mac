@@ -8,12 +8,8 @@ function clearSectionsPb() {
     });
 }
 
-function QnAPosting () {
-    
-}
 
-
-function loadPL () {
+function loadPL () { //개시글 목록
     fetch('mainbar/mb_QnA/QnA_PostList/QnA_PostList.html')
         .then(response => response.text()) // 응답을 "텍스트(문자열)"로 변환
         .then(html => {

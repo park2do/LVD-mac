@@ -1,4 +1,4 @@
-.post-form-container {
+.post_form_container {
     max-width: 450px;
     margin: 40px auto;
     padding: 20px;
@@ -7,19 +7,19 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.post-form {
+.post_form {
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.form-title {
+.form_title {
     margin-bottom: 8px;
     text-align: center;
     color: #333;
 }
 
-.form-input,  .form-textarea {
+.form_input,  .form_textarea {
     width: 95%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -27,7 +27,7 @@
     font-size: 16px;
 }
 
-.form-button {
+.form_button {
     padding: 12px;
     background-color: #007bff;
     color: white;
@@ -37,6 +37,6 @@
     cursor: pointer;
 }
 
-.form-button:hover {
+.form_button:hover {
     background-color: #0056b3;
 }
